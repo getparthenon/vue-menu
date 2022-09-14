@@ -17,10 +17,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Install dependencies
-        run: |
-          composer install
-
       - name: Install yarn
         uses: borales/actions-yarn@v3.0.0
         with:
