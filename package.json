@@ -18,5 +18,9 @@
   },
   "scripts": {
     "test": "vitest run"
+  },
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src"
   }
 }
